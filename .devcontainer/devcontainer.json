@@ -12,5 +12,11 @@
       ]
     }
   },
-  "postCreateCommand": "fvm use 3.19.6 && conan profile detect -f && conan build . -b missing"
+  "postCreateCommand": "fvm use 3.19.6 && conan profile detect -f && conan build . -b missing",
+  "hostRequirements": {
+   "cpus": 8,
+   "memory": "8gb",
+   "storage": "32gb"
+}
+
 }
